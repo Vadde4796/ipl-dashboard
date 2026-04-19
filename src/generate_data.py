@@ -56,6 +56,85 @@ BOWLERS = [
     "SP Narine", "DJ Bravo", "A Mishra", "P Kumar", "RP Singh",
 ]
 
+PLAYER_META = {
+    "V Kohli":        ("Batsman",        "Indian",      "Royal Challengers Bangalore"),
+    "RG Sharma":      ("Batsman",        "Indian",      "Mumbai Indians"),
+    "DA Warner":      ("Batsman",        "Australian",  "Sunrisers Hyderabad"),
+    "CH Gayle":       ("Batsman",        "West Indian", "Royal Challengers Bangalore"),
+    "SK Raina":       ("Batsman",        "Indian",      "Chennai Super Kings"),
+    "MS Dhoni":       ("Wicket-Keeper",  "Indian",      "Chennai Super Kings"),
+    "AB de Villiers": ("Batsman",        "South African","Royal Challengers Bangalore"),
+    "KL Rahul":       ("Batsman",        "Indian",      "Punjab Kings"),
+    "S Dhawan":       ("Batsman",        "Indian",      "Sunrisers Hyderabad"),
+    "AM Rahane":      ("Batsman",        "Indian",      "Rajasthan Royals"),
+    "SR Watson":      ("All-Rounder",    "Australian",  "Chennai Super Kings"),
+    "G Gambhir":      ("Batsman",        "Indian",      "Kolkata Knight Riders"),
+    "BB McCullum":    ("Wicket-Keeper",  "New Zealander","Kolkata Knight Riders"),
+    "F du Plessis":   ("Batsman",        "South African","Chennai Super Kings"),
+    "JP Duminy":      ("All-Rounder",    "South African","Mumbai Indians"),
+    "SV Samson":      ("Wicket-Keeper",  "Indian",      "Rajasthan Royals"),
+    "RA Tripathi":    ("Batsman",        "Indian",      "Sunrisers Hyderabad"),
+    "SS Iyer":        ("Batsman",        "Indian",      "Delhi Capitals"),
+    "HH Pandya":      ("All-Rounder",    "Indian",      "Mumbai Indians"),
+    "AT Rayudu":      ("Batsman",        "Indian",      "Chennai Super Kings"),
+    "PA Patel":       ("Wicket-Keeper",  "Indian",      "Rajasthan Royals"),
+    "Q de Kock":      ("Wicket-Keeper",  "South African","Mumbai Indians"),
+    "KS Williamson":  ("Batsman",        "New Zealander","Sunrisers Hyderabad"),
+    "DR Smith":       ("Batsman",        "West Indian", "Rajasthan Royals"),
+    "M Vijay":        ("Batsman",        "Indian",      "Chennai Super Kings"),
+    "RV Uthappa":     ("Batsman",        "Indian",      "Kolkata Knight Riders"),
+    "SL Malinga":     ("Bowler",         "Sri Lankan",  "Mumbai Indians"),
+    "JJ Bumrah":      ("Bowler",         "Indian",      "Mumbai Indians"),
+    "DW Steyn":       ("Bowler",         "South African","Sunrisers Hyderabad"),
+    "A Kumble":       ("Bowler",         "Indian",      "Royal Challengers Bangalore"),
+    "PP Chawla":      ("Bowler",         "Indian",      "Chennai Super Kings"),
+    "Harbhajan Singh":("Bowler",         "Indian",      "Mumbai Indians"),
+    "R Ashwin":       ("Bowler",         "Indian",      "Chennai Super Kings"),
+    "DL Chahar":      ("Bowler",         "Indian",      "Chennai Super Kings"),
+    "YS Chahal":      ("Bowler",         "Indian",      "Royal Challengers Bangalore"),
+    "Rashid Khan":    ("Bowler",         "Afghan",      "Sunrisers Hyderabad"),
+    "B Kumar":        ("Bowler",         "Indian",      "Sunrisers Hyderabad"),
+    "MM Sharma":      ("Bowler",         "Indian",      "Sunrisers Hyderabad"),
+    "I Sharma":       ("Bowler",         "Indian",      "Sunrisers Hyderabad"),
+    "MJ McClenaghan": ("Bowler",         "New Zealander","Mumbai Indians"),
+    "LH Ferguson":    ("Bowler",         "New Zealander","Kolkata Knight Riders"),
+    "SP Narine":      ("All-Rounder",    "West Indian", "Kolkata Knight Riders"),
+    "DJ Bravo":       ("All-Rounder",    "West Indian", "Chennai Super Kings"),
+    "A Mishra":       ("Bowler",         "Indian",      "Delhi Capitals"),
+    "P Kumar":        ("Bowler",         "Indian",      "Sunrisers Hyderabad"),
+    "RP Singh":       ("Bowler",         "Indian",      "Deccan Chargers"),
+}
+
+SEASON_RUNNERS_UP = {
+    2008: "Chennai Super Kings",    2009: "Royal Challengers Bangalore",
+    2010: "Mumbai Indians",         2011: "Royal Challengers Bangalore",
+    2012: "Chennai Super Kings",    2013: "Chennai Super Kings",
+    2014: "Kings XI Punjab",        2015: "Chennai Super Kings",
+    2016: "Royal Challengers Bangalore", 2017: "Rising Pune Supergiant",
+    2018: "Sunrisers Hyderabad",    2019: "Chennai Super Kings",
+    2020: "Delhi Capitals",         2021: "Kolkata Knight Riders",
+    2022: "Rajasthan Royals",       2023: "Gujarat Titans",
+    2024: "Sunrisers Hyderabad",
+}
+
+ORANGE_CAP = {
+    2008: ("SE Marsh", 616),   2009: ("ML Hayden", 572),  2010: ("SR Tendulkar", 618),
+    2011: ("CH Gayle", 608),   2012: ("CH Gayle", 733),   2013: ("MEK Hussey", 733),
+    2014: ("RG Sharma", 679),  2015: ("DA Warner", 562),  2016: ("V Kohli", 973),
+    2017: ("DA Warner", 641),  2018: ("KS Williamson", 735), 2019: ("DA Warner", 692),
+    2020: ("KL Rahul", 670),   2021: ("RD Gaikwad", 635), 2022: ("JC Buttler", 863),
+    2023: ("S Gill", 890),     2024: ("V Kohli", 741),
+}
+
+PURPLE_CAP = {
+    2008: ("S Sreesanth", 23),  2009: ("RP Singh", 23),    2010: ("PP Chawla", 21),
+    2011: ("SL Malinga", 28),   2012: ("M Morkel", 25),    2013: ("DJ Bravo", 32),
+    2014: ("MM Sharma", 23),    2015: ("DJ Bravo", 26),    2016: ("B Kumar", 23),
+    2017: ("B Kumar", 26),      2018: ("A Nehra", 26),     2019: ("I Sharma", 26),
+    2020: ("K Rabada", 30),     2021: ("HV Patel", 32),    2022: ("YS Chahal", 27),
+    2023: ("MJ Shami", 28),     2024: ("HV Patel", 24),
+}
+
 CITIES = [
     "Mumbai", "Chennai", "Kolkata", "Bangalore", "Delhi", "Mohali",
     "Hyderabad", "Jaipur", "Visakhapatnam", "Ahmedabad", "Indore", "Pune",
@@ -170,6 +249,35 @@ def generate_deliveries(matches_df):
     return pd.DataFrame(records)
 
 
+def generate_players() -> pd.DataFrame:
+    rows = []
+    for name, (role, nationality, primary_team) in PLAYER_META.items():
+        rows.append({
+            "player_name": name,
+            "role": role,
+            "nationality": nationality,
+            "primary_team": primary_team,
+        })
+    return pd.DataFrame(rows).sort_values("player_name").reset_index(drop=True)
+
+
+def generate_seasons() -> pd.DataFrame:
+    rows = []
+    for season in range(2008, 2025):
+        oc_player, oc_runs = ORANGE_CAP[season]
+        pc_player, pc_wkts = PURPLE_CAP[season]
+        rows.append({
+            "season": season,
+            "champion": SEASON_WINNERS[season],
+            "runner_up": SEASON_RUNNERS_UP[season],
+            "orange_cap_player": oc_player,
+            "orange_cap_runs": oc_runs,
+            "purple_cap_player": pc_player,
+            "purple_cap_wickets": pc_wkts,
+        })
+    return pd.DataFrame(rows)
+
+
 def main():
     out_dir = os.path.join(os.path.dirname(__file__), "..", "data")
     os.makedirs(out_dir, exist_ok=True)
@@ -181,6 +289,14 @@ def main():
     deliveries = generate_deliveries(matches)
     deliveries.to_csv(os.path.join(out_dir, "deliveries.csv"), index=False)
     print(f"  -> {len(deliveries)} deliveries saved.")
+    print("Generating players data...")
+    players = generate_players()
+    players.to_csv(os.path.join(out_dir, "players.csv"), index=False)
+    print(f"  -> {len(players)} players saved.")
+    print("Generating seasons data...")
+    seasons = generate_seasons()
+    seasons.to_csv(os.path.join(out_dir, "seasons.csv"), index=False)
+    print(f"  -> {len(seasons)} seasons saved.")
     print("Done! Data files written to data/")
 
 

@@ -1,6 +1,7 @@
 """IPL analysis functions used by the dashboard."""
 
 import pandas as pd
+from src.generate_data import SEASON_WINNERS
 
 
 def team_win_stats(matches: pd.DataFrame) -> pd.DataFrame:
@@ -49,8 +50,10 @@ def season_summary(matches: pd.DataFrame) -> pd.DataFrame:
         matches=("id", "count"),
         avg_win_by_runs=("win_by_runs", "mean"),
     ).reset_index()
-    winners = matches.groupby("season")["winner"].agg(
-        lambda x: x.value_counts().index[0]).reset_index(name="champion")
+    winners = pd.DataFrame([
+        {"season": s, "champion": c} for s, c in SEASON_WINNERS.items()
+        if s in summary["season"].values
+    ])
     return summary.merge(winners, on="season")
 
 

@@ -55,7 +55,7 @@ matches, deliveries = get_data()
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 st.sidebar.image(
     "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/IPL_2022_Logo.svg/640px-IPL_2022_Logo.svg.png",
-    use_column_width=True,
+    use_container_width=True,
 )
 st.sidebar.title("IPL Analytics")
 page = st.sidebar.radio(
